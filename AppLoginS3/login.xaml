@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppLoginS3.login">
+    <ContentPage.Content>
+        <StackLayout>
+
+        <Entry Placeholder="Usuario" TextColor="Blue" x:Name="txtUsuario"/>
+        <Entry Placeholder="Contraseña" IsPassword= "True" x:Name="txtContraseña" TextColor="Blue"/>
+            <Button Text="Iniciar Sesion" Clicked="Button_Clicked" />
+            <Label Text="" x:Name="lblResultado" TextColor="Red"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
